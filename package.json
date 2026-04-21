@@ -4,16 +4,19 @@
   "description": "node app ",
   "main": "mvwApp.js",
   "scripts": {
-  "start": "node mvwApp.js"
-},
+    "start": "node mvwApp.js"
+  },
   "repository": {
-  "type": "git",
-  "url": ""
-},
+    "type": "git",
+    "url": ""
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": ""
-},
-  "homepage": ""
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "mongodb": "4.1"
+  }
 }
