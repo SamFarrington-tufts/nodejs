@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 const mongoUrl = "mongodb+srv://Sfarrington:Br00kl1n@cluster0.hfopzip.mongodb.net/?appName=Cluster0";
 var http = require('http');
 var url = require('url');
-var port = process.end.PORT || 3000;
+var port = process.env.PORT || 3000;
 
 
 http.createServer(function (req, res) {
