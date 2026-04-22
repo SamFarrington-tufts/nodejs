@@ -1,10 +1,10 @@
 {
   "name": "nodejsapp",
   "version": "1.0.0",
-  "description": "node app ",
-  "main": "mvwApp.js",
+  "description": "node app2 ",
+  "main": "app2.js",
   "scripts": {
-    "start": "node mvwApp.js"
+    "start": "node app2.js"
   },
   "repository": {
     "type": "git",
